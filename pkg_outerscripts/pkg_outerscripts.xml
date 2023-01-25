@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="upgrade">
+	<name>Outer Scripts Package</name>
+	<packagename>outerscripts</packagename>
+	<packager>Tech Space Hub</packager>
+	<creationDate>January 2023</creationDate>
+	<copyright>Copyright (C) 2023 Tech Space Hub, All rights reserved.</copyright>
+	<license>GNU/GPL Version 3 or later - https://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>talk@techspacehub.com</authorEmail>
+	<authorUrl>www.techspacehub.com</authorUrl>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center"><tr><td>
+		<table width="100%" cellpadding="5" cellspacing="5" border="0"><tr><td valign="top"><img src="../components/com_outerscripts/assets/images/outerscripts.png" border="0" /></td>
+			<td valign="top" style="padding-left:60px;text-align:left;">
+				<p>This extension enables the use of unique external scripts (such as PHP, HTML, JS, and CSS) in Joomla pages. Both inline scripts and external file paths may be added to the same page. When using external scripts on Joomla pages, this plugin seeks to provide users a little more flexibility. A component, module, and sample script are included with this extension.</p>
+			</td></tr></table>
+			</td></tr>
+		</table>
+		]]>
+	</description>
+
+	<files folder="packages">
+		<file type="component" id="outerscripts" client="administrator">com_outerscripts.zip</file>
+		<file type="module" id="outerscripts" client="site">mod_outerscripts.zip</file>
+	</files>
+
+	<updateservers>
+		<server type="extension" name="Portfolio Cases Updates">https://techspacehub.com/extensionsupdate/outerscripts/outerscripts.xml</server>
+	</updateservers>
+
+</extension>
