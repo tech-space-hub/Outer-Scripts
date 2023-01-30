@@ -23,7 +23,7 @@ We suggest you to add above line so that no one can execute external script outs
 
 ## Example
 
-````<?php
+```<?php
 /**
  * @package Outerscripts
  *
@@ -68,7 +68,9 @@ echo $getparam;
 $getemail = JFactory::getApplication()->input->get('email', '', 'string');
 echo $getemail;
 
-?>```
+?>
+
+```
 
 ## Changelog
 
@@ -78,4 +80,3 @@ Initial Release
 ## LICENSE
 
 [GNU/GPL Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html)
-````
