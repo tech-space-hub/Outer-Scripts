@@ -15,22 +15,22 @@ Outer Scripts enables the use of unique external scripts (such as PHP, HTML, JS,
 
 ## REQUIREMENTS
 
-Every external PHP script should start with _defined('\_JEXEC') or die('This file cannot be accessed directly.');_ at the very first line of your PHP Code.
+Every external PHP script should start with standard Joomla defined JEXEC code at the very first line of your PHP Code.
 
-defined('\_JEXEC') or die('This file cannot be accessed directly.');
+**defined('\_JEXEC') or die('This file cannot be accessed directly.');**
 
-We suggest you to add above line so that no one can execute that script outside of Joomla 4 framework.
+We suggest you to add above line so that no one can execute external script outside of Joomla 4 framework.
 
 ## Example
 
-<?php
+````<?php
 /**
  * @package Outerscripts
  *
  * @copyright (C) 2023 Tech Space Hub.
  * @license GNU General Public License version 3 or later
  */
- 
+
 defined('_JEXEC') or die('This file cannot be accessed directly.');
 
 /************* These sample codes can be used to suit your needs and are provided below. ************/
@@ -68,7 +68,7 @@ echo $getparam;
 $getemail = JFactory::getApplication()->input->get('email', '', 'string');
 echo $getemail;
 
-?>
+?>```
 
 ## Changelog
 
@@ -78,3 +78,4 @@ Initial Release
 ## LICENSE
 
 [GNU/GPL Version 3 or later](https://www.gnu.org/licenses/gpl-3.0.html)
+````
