@@ -1,8 +1,8 @@
-[![Tech Space Hub](https://techspacehub.com/wp-content/uploads/2022/06/tech-space-logo-black.svg)](https://techspacehub.com)[![GitHub release](https://techspacehub.com/wp-content/themes/astra-child/assets/images/outer-scripts-version.svg)](https://github.com/tech-space-hub/Outer-Scripts/releases)
+# Outer Scripts [![GitHub release](https://techspacehub.com/wp-content/themes/astra-child/assets/images/outer-scripts-version.svg)](https://github.com/tech-space-hub/Outer-Scripts/releases)
 
 ## ABOUT
 
-Outer Scripts enables the use of unique external scripts (such as PHP, HTML, JS, and CSS) in Joomla pages. Both inline scripts and external file paths may be added to the same page. When using external scripts on Joomla pages, this plugin seeks to provide users a little more flexibility. A component, module, and sample script are included with this extension.
+**Outer Scripts** enables the use of unique external scripts (such as PHP, HTML, JS, and CSS) in Joomla pages. Both inline scripts and external file paths may be added to the same page. When using external scripts on Joomla pages, this plugin seeks to provide users a little more flexibility. A component, module, and sample script are included with this extension.
 
 ## Features
 
